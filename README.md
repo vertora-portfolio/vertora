@@ -2,7 +2,7 @@
 
 Site oficial do portfólio da **Vértora** (Gestão Patrimonial e Empresarial LTDA.), empresa **fictícia** criada para o *Shark Tank Jurídico* — Teoria da Empresa e Direito Societário, Centro Universitário AGES / Ânima Educação, 2026/2.
 
-- **Endereço público:** https://felipaoferreira156-ux.github.io/vertora/
+- **Endereço público:** https://vertora-portfolio.github.io/vertora/
 - **QR Code e cartão para impressão:** pasta [`entregaveis/`](entregaveis/) (`qr-vertora.svg`, `qr-vertora.png`, `cartao-qr-a6.pdf`).
 
 ---
