@@ -1,0 +1,605 @@
+{
+  "site": {
+    "url": "https://felipaoferreira156-ux.github.io/vertora/",
+    "pdf": "assets/Vertora_Portfolio_Juridico_Digital.pdf",
+    "qr": "assets/qr-vertora.svg",
+    "showSimulator": false,
+    "shareTitle": "Vértora — Gestão Patrimonial e Empresarial",
+    "shareText": "Patrimônio organizado é patrimônio protegido. Conheça o portfólio da Vértora.",
+    "seal": "Shark Tank Jurídico · AGES/Ânima · 2026/2 · Projeto acadêmico fictício",
+    "footer": "Projeto acadêmico fictício · Teoria da Empresa e Direito Societário · Centro Universitário AGES / Ânima Educação · 2026/2. Nomes, valores e documentos têm finalidade exclusivamente acadêmica."
+  },
+
+  "socios": [
+    { "id": "pp", "nome": "Pedro Paulo Oliveira Santos", "curto": "Pedro Paulo", "iniciais": "PP", "funcao": "Sócio-Administrador",
+      "resp": ["Representação da sociedade", "Condução das reuniões", "Decisões estratégicas", "Integração entre os departamentos", "Acompanhamento do desempenho"] },
+    { "id": "ra", "nome": "Rayca Silva Alves", "curto": "Rayca Alves", "iniciais": "RA", "funcao": "Diretora Jurídica",
+      "resp": ["Contrato social", "Acordo de sócios", "Contratos com clientes e parceiros", "Objeto social", "Responsabilidades dos sócios", "Questões jurídicas e regulatórias", "Identificação dos serviços que dependem de profissionais habilitados"] },
+    { "id": "ph", "nome": "Pedro Henrique Rodrigue Oliveira", "curto": "Pedro Henrique", "iniciais": "PH", "funcao": "Governança e Compliance",
+      "resp": ["Regras de governança", "Controles internos", "Código de conduta", "Conflitos de interesses", "Transparência", "Gestão de riscos", "Políticas de compliance"] },
+    { "id": "iso", "nome": "Iasmim Silva Oliveira", "curto": "Iasmim S. Oliveira", "iniciais": "IO", "funcao": "ESG e Sustentabilidade",
+      "resp": ["Política ESG", "Práticas ambientais", "Responsabilidade social", "Governança sustentável", "Indicadores ESG", "Serviços de sustentabilidade aos clientes"] },
+    { "id": "ns", "nome": "Nicole Santos Oliveira", "curto": "Nicole Santos", "iniciais": "NS", "funcao": "Diretora Financeira",
+      "resp": ["Capital social", "Investimento inicial", "Custos operacionais", "Formação de preços", "Receitas", "Despesas", "Projeção financeira", "Distribuição de lucros"] },
+    { "id": "jis", "nome": "Josefa Iasmim Santos da Silva", "curto": "Josefa Iasmim", "iniciais": "JI", "funcao": "Marketing e Identidade Visual",
+      "resp": ["Logotipo", "Identidade visual", "Slogan", "Redes sociais", "Estratégia de publicidade", "Posicionamento da marca", "Materiais de divulgação"] },
+    { "id": "ea", "nome": "Eduarda Araujo Ferreira", "curto": "Eduarda Araujo", "iniciais": "EA", "funcao": "Relações Institucionais",
+      "resp": ["Relacionamento com clientes empresariais", "Parcerias", "Instituições financeiras", "Escritórios de advocacia e contabilidade parceiros", "Networking", "Representação institucional"] },
+    { "id": "lm", "nome": "Luiza Mariane Silva Conceição", "curto": "Luiza Mariane", "iniciais": "LM", "funcao": "Portfólio Digital",
+      "resp": ["Catálogo dos serviços", "Apresentação comercial", "Site e portfólio digital", "Organização dos planos", "Apresentação dos diferenciais", "Materiais digitais para clientes"] },
+    { "id": "as", "nome": "Alan Santana do Nascimento", "curto": "Alan Santana", "iniciais": "AS", "funcao": "Secretário",
+      "resp": ["Atas das reuniões", "Organização documental", "Controle de prazos", "Arquivamento", "Organização do contrato social e do acordo de sócios", "Apoio ao administrador", "Consolidação dos documentos"] }
+  ],
+
+  "home": {
+    "kicker": "Gestão patrimonial e empresarial",
+    "title": "Patrimônio organizado é patrimônio *protegido*.",
+    "subtitle": "Gestão patrimonial e empresarial para pessoas, famílias e empresas.",
+    "stats": [
+      { "countTo": 900, "prefix": "R$ ", "suffix": " mil", "label": "Capital social integralizado" },
+      { "countTo": 9, "suffix": " sócios", "label": "11,11% cada" },
+      { "countTo": 3, "suffix": " planos", "label": "Reservado, Institucional e Estratégico" },
+      { "countTo": 28, "suffix": " clientes", "label": "Meta do cenário de 12 meses" }
+    ],
+    "cta60": "Vértora em 60 segundos",
+    "ctaExplore": "Explorar o portfólio",
+    "howTo": "Cada capítulo abre com um resumo em linguagem direta. Logo abaixo vêm o detalhamento técnico e a base legal, sempre a um toque."
+  },
+
+  "stories": [
+    { "kicker": "Vértora em 60 segundos", "big": "V", "logo": true, "title": "Patrimônio organizado é patrimônio protegido.", "text": "Toque à direita para avançar e à esquerda para voltar." },
+    { "kicker": "O problema", "big": "3", "title": "Patrimônio espalhado é patrimônio em risco.", "text": "Informação espalhada, prazos sem dono e profissionais que não conversam entre si." },
+    { "kicker": "A solução", "big": "1", "bigLabel": "só ponto de contato", "title": "Tudo em um só lugar, sempre em dia.", "text": "Diagnóstico → Planejamento → Desenvolvimento → Acompanhamento, coordenando os profissionais certos para cada necessidade." },
+    { "kicker": "Planos", "big": "3", "bigLabel": "planos", "title": "Reservado, Institucional e Estratégico.", "text": "Para pessoas e famílias, para empresas e para famílias empresárias. Preço sob proposta, após o diagnóstico." },
+    { "kicker": "Sociedade", "big": "9", "bigLabel": "sócios · 11,11% cada", "title": "R$ 900 mil integralizados. Decisões compartilhadas.", "text": "Sociedade limitada com quóruns agravados: alterar o Contrato Social exige 75% do capital, ou seja, 7 dos 9 sócios." },
+    { "kicker": "Números do cenário", "big": "29,6%", "bigLabel": "de margem antes de tributos", "title": "28 clientes geram R$ 54 mil por mês.", "text": "Despesas de R$ 38 mil por mês e resultado de R$ 16 mil mensais antes de tributos. Meta de cenário, não lucro garantido." },
+    { "kicker": "Por que investir", "big": "R$ 600 mil", "bigLabel": "de reserva", "title": "Segurança jurídica, governança e números sustentáveis.", "text": "Um só ponto de contato, atuação dentro do objeto social e compliance estruturado desde o início.", "final": true }
+  ],
+
+  "refs": {
+    "CC": "Código Civil — Lei 10.406/2002.",
+    "CPC": "Código de Processo Civil — Lei 13.105/2015.",
+    "CF": "Constituição Federal de 1988.",
+    "Cl.": "Cláusula do Contrato Social da Vértora (ou do Acordo de Sócios, quando indicado).",
+    "Cl. 2.2": "Contrato Social, Cláusula 2.2: a sociedade não presta serviços privativos da advocacia.",
+    "Cl. 2.3": "Contrato Social, Cláusula 2.3: vedadas a custódia de recursos, a intermediação de ativos, a gestão de carteiras e as atividades sujeitas ao BACEN ou à CVM.",
+    "Cl. 3ª": "Contrato Social, Cláusula 3ª: capital de R$ 900.000,00 em 900.000 quotas de R$ 1,00, 100.000 por sócio.",
+    "Cl. 4ª": "Contrato Social, Cláusula 4ª: responsabilidade de cada sócio limitada ao valor das suas quotas.",
+    "Cl. 5.1": "Contrato Social, Cláusula 5.1: administração e representação exercidas isoladamente pelo Sócio-Administrador.",
+    "Cl. 5.2": "Contrato Social, Cláusula 5.2: diretorias setoriais são funções internas, sem poder isolado de representação.",
+    "Cl. 5.3": "Contrato Social, Cláusula 5.3: declaração de desimpedimento do Sócio-Administrador.",
+    "Cl. 9ª": "Contrato Social, Cláusula 9ª: lucros distribuídos na proporção das quotas, depois das reservas, salvo reinvestimento.",
+    "Lei 8.906/1994": "Estatuto da Advocacia e da OAB. Define as atividades privativas da advocacia.",
+    "Decreto-Lei 9.295/1946": "Cria o Conselho Federal de Contabilidade e define as atribuições do contador.",
+    "Lei 6.385/1976": "Lei do mercado de valores mobiliários. Cria a CVM e exige autorização para administração de carteiras e custódia.",
+    "Resolução CVM 19/2021": "Regras da CVM para a atividade de consultoria de valores mobiliários (recomendação de investimentos).",
+    "Lei 14.478/2022": "Marco legal dos ativos virtuais. Prestadoras de serviços de ativos virtuais dependem de autorização do Banco Central.",
+    "Lei 13.709/2018": "Lei Geral de Proteção de Dados Pessoais (LGPD).",
+    "LGPD": "Lei Geral de Proteção de Dados Pessoais — Lei 13.709/2018.",
+    "Lei 14.451/2022": "Alterou o Código Civil e reduziu os quóruns da limitada, como o de alteração do contrato social, para mais da metade do capital.",
+    "Lei 6.404/1976": "Lei das Sociedades por Ações. O art. 118 trata dos acordos de acionistas.",
+    "Lei 8.934/1994": "Lei do Registro Público de Empresas Mercantis (Juntas Comerciais).",
+    "Lei 12.846/2013": "Lei Anticorrupção: responsabilização de pessoas jurídicas por atos contra a administração pública.",
+    "Decreto 11.129/2022": "Regulamenta a Lei Anticorrupção. Os arts. 56 e 57 tratam do programa de integridade.",
+    "Lei 12.305/2010": "Política Nacional de Resíduos Sólidos. O art. 33 trata da logística reversa.",
+    "Lei 14.611/2023": "Igualdade salarial e de critérios remuneratórios entre mulheres e homens.",
+    "LC 123/2006": "Estatuto da Microempresa e da Empresa de Pequeno Porte (Simples Nacional).",
+    "Lei 13.140/2015": "Lei da Mediação.",
+    "Lei 6.938/1981": "Política Nacional do Meio Ambiente.",
+    "STJ, REsp 2.142.834/SP": "STJ, 3ª Turma, Rel. Min. Ricardo Villas Bôas Cueva, julg. 11 jun. 2024 (Informativo nº 816).",
+    "IBGC": "Instituto Brasileiro de Governança Corporativa — Código das Melhores Práticas de Governança Corporativa, 6ª ed., 2023.",
+    "ABNT PR 2030:2022": "Prática Recomendada da ABNT sobre ESG: conceitos, diretrizes e modelo de avaliação.",
+
+    "CC, art. 1.052": "Na limitada, a responsabilidade de cada sócio é restrita ao valor das suas quotas, mas todos respondem solidariamente pela integralização do capital.",
+    "CC, arts. 1.052 a 1.087": "Capítulo do Código Civil que regula a sociedade limitada.",
+    "CC, art. 1.055": "O capital da limitada divide-se em quotas, iguais ou desiguais, cabendo uma ou diversas a cada sócio.",
+    "CC, arts. 1.060 e 1.064": "A limitada é administrada por pessoas designadas no contrato social ou em ato separado; o uso da denominação cabe aos administradores com os poderes necessários.",
+    "CC, art. 1.011, §1º": "Lista quem não pode ser administrador (impedimentos legais e certas condenações criminais).",
+    "CC, art. 1.072, §1º": "A assembleia só é obrigatória quando a limitada tem mais de dez sócios. Com nove, a deliberação pode ser em reunião.",
+    "art. 1.080-A": "Código Civil: o sócio pode participar e votar a distância em reunião ou assembleia.",
+    "art. 1.076": "Código Civil: quóruns de deliberação da limitada, com redação dada pela Lei 14.451/2022.",
+    "CC, art. 1.074, §2º": "Nenhum sócio, por si ou como representante, pode votar matéria que lhe diga respeito diretamente.",
+    "CC, art. 1.078": "Reunião ou assembleia anual, nos quatro meses seguintes ao fim do exercício, para tomar as contas dos administradores.",
+    "art. 1.078": "Código Civil: reunião ou assembleia anual, nos quatro meses seguintes ao fim do exercício, para aprovar as contas.",
+    "CC, art. 1.007": "Salvo estipulação em contrário, o sócio participa dos lucros e das perdas na proporção das suas quotas.",
+    "art. 1.008": "Código Civil: é nula a cláusula que exclua qualquer sócio de participar dos lucros e das perdas.",
+    "art. 1.009": "Código Civil: a distribuição de lucros ilícitos ou fictícios gera responsabilidade solidária dos administradores e de quem os recebe conhecendo a ilegitimidade.",
+    "CC, arts. 985 e 1.150": "A sociedade adquire personalidade jurídica com a inscrição no registro próprio — a Junta Comercial, para a sociedade empresária.",
+    "CC, art. 1.031": "Na saída de um sócio, o valor da quota é apurado com base em balanço especialmente levantado.",
+    "CC, art. 1.085": "Permite excluir extrajudicialmente o sócio que pratica atos de inegável gravidade, se o contrato social prever a exclusão por justa causa.",
+    "CC, arts. 593 a 609": "Regras do Código Civil sobre o contrato de prestação de serviços.",
+    "CC, arts. 104, 421 e 421-A": "Requisitos de validade do negócio jurídico, liberdade contratual e presunção de paridade nos contratos empresariais.",
+    "CC, art. 1.053, parágrafo único": "O contrato social pode prever a aplicação supletiva da Lei das S.A. à limitada.",
+    "Lei 6.404/1976, art. 118": "Regula os acordos de acionistas, aplicado à limitada de forma supletiva.",
+    "CPC, arts. 604 a 606": "Regras processuais para a apuração de haveres do sócio que sai.",
+    "Lei 8.934/1994, art. 36": "Documentos apresentados à Junta em até 30 dias da assinatura têm efeitos desde a data do ato.",
+    "Lei 8.906/1994, art. 1º": "Atividades privativas da advocacia: postulação em juízo e consultoria, assessoria e direção jurídicas.",
+    "Lei 8.906/1994, art. 34, III e IV": "Infrações disciplinares do advogado: valer-se de agenciador de causas e angariar ou captar causas.",
+    "Lei 6.385/1976, arts. 23 e 24": "Dependem de autorização da CVM a administração de carteiras e a custódia de valores mobiliários.",
+    "LGPD, arts. 46 e 48": "Dever de adotar medidas de segurança e de comunicar incidentes de segurança à ANPD e aos titulares.",
+    "LGPD, art. 41": "O controlador deve indicar um encarregado pelo tratamento de dados pessoais.",
+    "Lei 12.305/2010, art. 33": "Obrigação de logística reversa, que inclui produtos eletroeletrônicos.",
+    "Decreto 11.129/2022, arts. 56 e 57": "Definem o programa de integridade e os parâmetros para avaliá-lo.",
+    "CF, art. 170": "Princípios da ordem econômica, entre eles a defesa do meio ambiente (inciso VI)."
+  },
+
+  "chapters": [
+    {
+      "id": "problema", "num": "01", "nav": "O problema",
+      "title": "Patrimônio espalhado é patrimônio em risco.",
+      "summary": "Bens, contratos, documentos e prazos costumam ficar espalhados — e ninguém enxerga o todo.",
+      "highlight": { "value": "3", "label": "problemas que a Vértora resolve" },
+      "owners": ["pp"],
+      "blocks": [
+        { "type": "cards", "style": "numbered", "items": [
+          { "icon": "FolderOpen", "title": "Informação espalhada", "text": "Bens, contratos e documentos ficam divididos entre bancos, cartórios, gavetas e escritórios." },
+          { "icon": "CalendarClock", "title": "Prazos sem dono", "text": "IPTU, seguros, aluguéis e contratos vencem sem que ninguém acompanhe o calendário." },
+          { "icon": "Unplug", "title": "Profissionais que não conversam", "text": "Advogado, contador e banco trabalham isolados, e o cliente repete a própria história a cada um." }
+        ] },
+        { "type": "quote", "text": "Bens, contratos, documentos e prazos costumam ficar espalhados entre gavetas, bancos, cartórios e escritórios diferentes. A Vértora reúne tudo isso em um só lugar." }
+      ]
+    },
+    {
+      "id": "solucao", "num": "02", "nav": "A solução",
+      "title": "Um só lugar, tudo em dia.",
+      "summary": "A Vértora reúne o patrimônio em um só lugar, mantém tudo em dia e coordena os profissionais certos para cada necessidade.",
+      "highlight": { "value": "4", "label": "etapas de atendimento" },
+      "owners": ["pp"],
+      "blocks": [
+        { "type": "heading", "text": "Processo de atendimento" },
+        { "type": "timeline", "hint": "Toque em cada etapa", "items": [
+          { "title": "Diagnóstico", "text": "Entendemos o patrimônio, as necessidades e os objetivos." },
+          { "title": "Planejamento", "text": "Definimos escopo, cronograma e proposta." },
+          { "title": "Desenvolvimento", "text": "Organizamos, implantamos rotinas e coordenamos parceiros." },
+          { "title": "Acompanhamento", "text": "Monitoramos, reportamos e ajustamos o plano." }
+        ] },
+        { "type": "callout", "icon": "Scale", "text": "Sempre que a lei exige, a Vértora coordena **profissionais habilitados** — advogados, contadores e instituições autorizadas. Veja o capítulo 05." }
+      ]
+    },
+    {
+      "id": "servicos", "num": "03", "nav": "Serviços",
+      "title": "Seis serviços, todos dentro do objeto social.",
+      "summary": "Da catalogação dos bens ao painel tecnológico: organização administrativa, documental e digital do patrimônio.",
+      "highlight": { "value": "6", "label": "serviços" },
+      "owners": ["lm"],
+      "blocks": [
+        { "type": "carousel", "items": [
+          { "icon": "ClipboardList", "title": "Inventário patrimonial", "text": "Levantamento e catalogação de imóveis, participações, veículos, contas e ativos digitais num dossiê único e atualizado." },
+          { "icon": "CalendarClock", "title": "Gestão documental e de prazos", "text": "Arquivo digital seguro, controle de vencimentos (IPTU, seguros, aluguéis, contratos) e alertas." },
+          { "icon": "Layers", "title": "Apoio ao planejamento sucessório", "text": "Organização de documentos, cronogramas e informações para os advogados e contadores do cliente." },
+          { "icon": "Fingerprint", "title": "Ativos digitais e direitos", "text": "Mapeamento e monitoramento de domínios, contas, acervos e direitos de uso, sem custódia nem intermediação." },
+          { "icon": "Compass", "title": "Consultoria de gestão", "text": "Processos, indicadores, governança familiar e diagnóstico ESG." },
+          { "icon": "LayoutDashboard", "title": "Painel Vértora", "text": "Solução tecnológica com visão consolidada do patrimônio, dos documentos e dos relatórios gerenciais." }
+        ] },
+        { "type": "legal", "title": "Ver base legal", "items": [
+          "Todos os serviços se enquadram no objeto social da **Cláusula 2ª** do Contrato Social: organização e acompanhamento administrativo de ativos digitais e direitos, com soluções tecnológicas (a); apoio administrativo, logístico e documental ao planejamento patrimonial e sucessório (b); e consultoria empresarial e de gestão (c).",
+          "Ativos digitais: apenas catalogação, segurança documental e organização de informações, sem custódia nem intermediação [[Cl. 2.3]] [[Lei 14.478/2022]]."
+        ] }
+      ]
+    },
+    {
+      "id": "planos", "num": "04", "nav": "Planos e diferenciais",
+      "title": "Três planos, um mesmo padrão de cuidado.",
+      "summary": "Cada plano se adapta ao perfil do cliente, e o preço é definido depois do diagnóstico.",
+      "highlight": { "value": "3", "label": "planos" },
+      "owners": ["lm"],
+      "blocks": [
+        { "type": "plans", "plans": [
+          { "id": "reservado", "name": "Reservado", "audience": "Pessoas e famílias", "tagline": "Patrimônio pessoal, com discrição.",
+            "items": ["Inventário e dossiê digital", "Agenda de vencimentos e alertas", "Arquivo documental seguro", "Relatório trimestral", "Gestor dedicado"] },
+          { "id": "institucional", "name": "Institucional", "audience": "Empresas", "tagline": "Rotina administrativa sob controle.",
+            "items": ["Gestão de contratos, prazos e documentos societários", "Obrigações recorrentes", "Relatório gerencial mensal", "Consultoria de processos e indicadores", "Interface com o contador e os advogados da empresa"] },
+          { "id": "estrategico", "name": "Estratégico", "audience": "Famílias empresárias", "tagline": "Pessoa, família e empresas juntas.", "featured": true, "badge": "Mais completo",
+            "items": ["Tudo dos planos Reservado e Institucional", "Apoio documental ao planejamento sucessório com parceiros habilitados", "Governança familiar e diagnóstico ESG", "Painel Vértora completo", "Reunião mensal de acompanhamento"] }
+        ] },
+        { "type": "heading", "text": "Como o preço é definido" },
+        { "type": "kpis", "items": [
+          { "value": "Sob proposta", "label": "Valor fechado após o diagnóstico" },
+          { "value": "R$ 1.928,57", "label": "Receita média de referência por cliente/mês no cenário" },
+          { "value": "Custo + horas + margem", "label": "Método: custo da estrutura + horas técnicas + margem", "small": true }
+        ] },
+        { "type": "heading", "text": "Contratação" },
+        { "type": "list", "style": "check", "intro": "Contrato de prestação de serviços [[CC, arts. 593 a 609]] com:", "items": [
+          "escopo delimitado ao objeto social;",
+          "cláusulas de confidencialidade e LGPD;",
+          "prazos e níveis de serviço;",
+          "indicação expressa dos serviços executados por parceiros habilitados."
+        ] },
+        { "type": "heading", "text": "Diferenciais" },
+        { "type": "cards", "style": "icon", "compact": true, "items": [
+          { "icon": "Target", "title": "Um só ponto de contato", "text": "Coordenamos advogados, contadores e instituições." },
+          { "icon": "Scale", "title": "Limites legais claros", "text": "Triagem jurídica de cada serviço." },
+          { "icon": "Lock", "title": "Sigilo como regra", "text": "Acesso restrito e proteção de dados." },
+          { "icon": "LayoutDashboard", "title": "Tecnologia própria", "text": "O Painel Vértora." },
+          { "icon": "Vote", "title": "Decisões colegiadas", "text": "Registradas em ata." },
+          { "icon": "BookOpen", "title": "Relatórios claros", "text": "Linguagem clara para quem decide." }
+        ] }
+      ]
+    },
+    {
+      "id": "seguranca-juridica", "num": "05", "nav": "Segurança jurídica",
+      "title": "O que fazemos — e o que a lei reserva a outros.",
+      "summary": "Cuidamos da organização administrativa, documental e tecnológica do patrimônio. O que a lei reserva a outros profissionais fica com parceiros habilitados.",
+      "highlight": { "value": "Cl. 2ª", "label": "objeto social com vedações expressas" },
+      "owners": ["ra"],
+      "blocks": [
+        { "type": "heading", "text": "Objeto social · Cláusula 2ª" },
+        { "type": "clauses", "items": [
+          { "label": "a", "text": "organização, inventário, catalogação, mapeamento e acompanhamento administrativo e operacional da gestão patrimonial de ativos digitais e direitos correlatos, incluindo soluções tecnológicas e plataformas;" },
+          { "label": "b", "text": "apoio administrativo, logístico e documental ao planejamento patrimonial e sucessório;" },
+          { "label": "c", "text": "consultoria empresarial e de gestão administrativa correlata." }
+        ] },
+        { "type": "heading", "text": "Vedações" },
+        { "type": "cards", "style": "icon", "items": [
+          { "icon": "Gavel", "title": "Cl. 2.2 · Advocacia", "text": "Não presta serviços privativos da advocacia [[Lei 8.906/1994]]." },
+          { "icon": "Landmark", "title": "Cl. 2.3 · Ativos e finanças", "text": "Não faz custódia de recursos, intermediação de ativos, gestão de carteiras nem operações sujeitas ao BACEN ou à CVM." }
+        ] },
+        { "type": "heading", "text": "Quem faz?" },
+        { "type": "flip", "hint": "Toque no cartão para ver a resposta", "items": [
+          { "activity": "Consultoria jurídica e atos societários", "who": "Advogado inscrito na OAB", "basis": "Lei 8.906/1994, art. 1º" },
+          { "activity": "Escrituração contábil e balanços", "who": "Contador registrado no CRC", "basis": "Decreto-Lei 9.295/1946" },
+          { "activity": "Carteira e custódia de valores mobiliários", "who": "Instituição autorizada pela CVM", "basis": "Lei 6.385/1976, arts. 23 e 24" },
+          { "activity": "Recomendação de investimentos", "who": "Consultor autorizado pela CVM", "basis": "Resolução CVM 19/2021" },
+          { "activity": "Custódia e intermediação de ativos virtuais", "who": "Prestadora autorizada pelo Banco Central", "basis": "Lei 14.478/2022" }
+        ] },
+        { "type": "callout", "icon": "ShieldCheck", "text": "Dados de clientes são tratados conforme a LGPD [[Lei 13.709/2018]]." }
+      ]
+    },
+    {
+      "id": "sociedade", "num": "06", "nav": "Sociedade e equipe",
+      "title": "Nove sócios, quotas iguais, decisões compartilhadas.",
+      "summary": "Cada sócio responde até o valor das suas quotas, e nenhuma decisão estratégica depende de uma pessoa só.",
+      "highlight": { "value": "11,11%", "label": "por sócio · 100.000 quotas cada" },
+      "owners": ["pp", "as"],
+      "blocks": [
+        { "type": "facts", "items": [
+          { "label": "Tipo", "text": "Sociedade empresária limitada [[CC, arts. 1.052 a 1.087]]." },
+          { "label": "Capital", "text": "R$ 900.000,00 em 900.000 quotas de R$ 1,00, totalmente integralizado em moeda corrente [[Cl. 3ª]]. Cada sócio tem 100.000 quotas (R$ 100.000, 1/9 ≈ 11,11%)." },
+          { "label": "Responsabilidade", "text": "Limitada ao valor das quotas [[Cl. 4ª]] [[CC, art. 1.052]]." },
+          { "label": "Administração", "text": "Exercida isoladamente pelo Sócio-Administrador Pedro Paulo [[Cl. 5.1]] [[CC, arts. 1.060 e 1.064]]. As diretorias são funções internas, **sem poder de representação** [[Cl. 5.2]]. Há declaração de desimpedimento [[Cl. 5.3]] [[CC, art. 1.011, §1º]]." }
+        ] },
+        { "type": "heading", "text": "Quadro societário" },
+        { "type": "donut", "hint": "Toque numa fatia ou num nome" },
+        { "type": "heading", "text": "Organograma" },
+        { "type": "org", "hint": "Toque num sócio para ver as responsabilidades" }
+      ]
+    },
+    {
+      "id": "decisoes", "num": "07", "nav": "Decisões e quóruns",
+      "title": "Essa decisão passa?",
+      "summary": "As decisões são tomadas em Reunião de Sócios, com quóruns acima do mínimo legal. Teste no simulador.",
+      "highlight": { "value": "7 de 9", "label": "sócios para alterar o Contrato Social (75%)" },
+      "owners": ["ra", "pp"],
+      "blocks": [
+        { "type": "text", "text": "Com 9 sócios, a reunião é permitida no lugar da assembleia [[CC, art. 1.072, §1º]] e admite participação a distância [[art. 1.080-A]]. A **Cláusula 8ª** fixa quóruns **agravados**, acima do piso legal de “mais da metade do capital” [[Lei 14.451/2022]] [[art. 1.076]]." },
+        { "type": "quorumTable" },
+        { "type": "heading", "text": "Simulador" },
+        { "type": "quorumSim" },
+        { "type": "heading", "text": "Atos que exigem aprovação prévia · Cl. 6ª" },
+        { "type": "list", "style": "dot", "items": [
+          "Empréstimos e garantias;",
+          "Alienação ou oneração de bens do ativo permanente;",
+          "Despesas fora do orçamento;",
+          "Contratos com sócios ou partes relacionadas;",
+          "Alteração do objeto ou reorganização."
+        ] },
+        { "type": "callout", "icon": "Users", "title": "Conflito de interesses · Cl. 7ª", "text": "O sócio conflitado declara o impedimento, não participa nem vota, e a abstenção é registrada em ata [[CC, art. 1.074, §2º]]." },
+        { "type": "callout", "icon": "FileSignature", "title": "No Acordo de Sócios, também exigem 75%", "text": "Exceção ao lock-up, drag along, ingresso de herdeiros e alteração do próprio Acordo." }
+      ]
+    },
+    {
+      "id": "documentos", "num": "08", "nav": "Documentos societários",
+      "title": "Os documentos que dão forma e segurança à sociedade.",
+      "summary": "O Contrato Social fixa as regras perante todos; o Acordo de Sócios detalha a convivência entre os sócios; atas e arquivo garantem que cada decisão fique registrada.",
+      "highlight": { "value": "3", "label": "documentos-base" },
+      "owners": ["ra", "as"],
+      "blocks": [
+        { "type": "accordion", "items": [
+          { "title": "Contrato Social", "subtitle": "14 cláusulas", "numbered": true, "lines": [
+            "Denominação, sede (Fátima – BA) e prazo indeterminado.",
+            "Objeto social e vedações (2.2 advocacia; 2.3 ativos digitais e financeiros).",
+            "Capital e quadro societário.",
+            "Responsabilidade dos sócios.",
+            "Administração, diretorias e desimpedimento.",
+            "Atos sujeitos a aprovação.",
+            "Conflito de interesses.",
+            "Deliberações e quóruns.",
+            "Exercício social (ano civil) e lucros: proporcionais às quotas, depois das reservas, salvo deliberação de reinvestimento.",
+            "Cessão de quotas: consentimento da maioria e preferência de 30 dias.",
+            "Retirada, exclusão e falecimento: a sociedade continua e os haveres são apurados por balanço especial.",
+            "Confidencialidade e LGPD.",
+            "Impasses: negociação de 15 dias e depois mediação de 30 dias.",
+            "Foro da Comarca de Fátima – BA."
+          ] },
+          { "title": "Acordo de Sócios", "subtitle": "9 cláusulas · contrato parassocial", "numbered": true,
+            "intro": "Contrato parassocial [[CC, arts. 104, 421 e 421-A]] [[CC, art. 1.053, parágrafo único]] [[Lei 6.404/1976, art. 118]], arquivado na sede, com a sociedade como interveniente-anuente.",
+            "lines": [
+            "Objeto e vinculação.",
+            "Exercício do voto e relatórios trimestrais das diretorias.",
+            "**Lock-up de 24 meses** (exceção com 75%); **preferência de 30 dias**; **tag along** quando quem vende tem mais de 50%; **drag along** com 75% numa proposta por 100% da empresa.",
+            "Sucessão: herdeiros só entram com 75% + adesão + ausência de vínculo com concorrente. Caso contrário, haveres por balanço especial [[CC, art. 1.031]] [[CPC, arts. 604 a 606]], pagos em **12 parcelas** corrigidas pelo IPCA.",
+            "Impasses: impasse operacional vai para parecer técnico; impasse estrutural vai para a **cláusula buy or sell**.",
+            "**Não concorrência por 24 meses** após a saída, não aliciamento e propriedade intelectual da sociedade.",
+            "Confidencialidade, LGPD e direito de regresso por incidente de dados.",
+            "Execução específica, exclusão por justa causa [[CC, art. 1.085]] e multa de 20% do valor nominal das quotas.",
+            "Vigência indeterminada; alteração com 75%; foro de Fátima – BA. **Não há arbitragem.**"
+          ] },
+          { "title": "Manual de Governança, Compliance e Ética", "subtitle": "3 partes", "lines": [
+            "**Parte I** — Plano de governança.",
+            "**Parte II** — Programa de compliance e gestão de riscos.",
+            "**Parte III** — Código de ética e conduta."
+          ] }
+        ] },
+        { "type": "heading", "text": "Etapas de formalização" },
+        { "type": "steps", "items": [
+          { "title": "Contrato Social", "text": "Assinado pelos 9 sócios." },
+          { "title": "Junta Comercial", "text": "Com o registro, a sociedade adquire personalidade jurídica [[CC, arts. 985 e 1.150]]." },
+          { "title": "Inscrições", "text": "CNPJ, inscrição municipal e alvará." },
+          { "title": "Acordo e atas", "text": "Acordo arquivado na sede e atas a cargo da Secretaria. Alterações devem ser arquivadas na Junta em até 30 dias [[Lei 8.934/1994, art. 36]]." }
+        ] }
+      ]
+    },
+    {
+      "id": "governanca", "num": "09", "nav": "Governança e compliance",
+      "title": "Regras claras, controles que funcionam.",
+      "summary": "Governança é o modo como a Vértora decide; compliance é a garantia de que cada decisão respeita a lei, o contrato e o código de conduta.",
+      "highlight": { "value": "5", "label": "princípios do IBGC" },
+      "owners": ["ph"],
+      "blocks": [
+        { "type": "heading", "text": "Princípios · IBGC, 6ª ed., 2023" },
+        { "type": "chips", "items": ["Integridade", "Transparência", "Equidade", "Responsabilização", "Sustentabilidade"] },
+        { "type": "heading", "text": "Rituais" },
+        { "type": "cards", "style": "icon", "items": [
+          { "icon": "CalendarClock", "title": "Trimestral", "text": "Reuniões ordinárias de sócios, com relatórios das diretorias, finanças, riscos e metas." },
+          { "icon": "Vote", "title": "Anual", "text": "Reunião de aprovação de contas [[CC, art. 1.078]]." }
+        ] },
+        { "type": "heading", "text": "Controles internos" },
+        { "type": "list", "style": "check", "items": [
+          "Quem solicita não aprova, e quem aprova não paga.",
+          "Dupla aprovação de pagamentos.",
+          "Conciliação bancária mensal.",
+          "Acesso a dados de clientes só por necessidade.",
+          "Decisões registradas em ata.",
+          "Atos extraordinários exigem parecer prévio das Diretorias Financeira e de Governança e Compliance."
+        ] },
+        { "type": "heading", "text": "Código de conduta" },
+        { "type": "list", "style": "dot", "items": [
+          "Sigilo absoluto.",
+          "Proibição de vantagem indevida [[Lei 12.846/2013]].",
+          "Respeito e tolerância zero ao assédio.",
+          "Comunicação sem promessa de resultado."
+        ] },
+        { "type": "callout", "icon": "MessagesSquare", "title": "Canal confidencial", "text": "Canal de denúncias gerido pela Diretoria de Governança e Compliance." },
+        { "type": "heading", "text": "Matriz de riscos" },
+        { "type": "risks", "items": [
+          { "risk": "Vazamento de dados patrimoniais", "level": "Alto", "response": "Criptografia, acesso restrito e plano de incidentes [[LGPD, arts. 46 e 48]]." },
+          { "risk": "Atuação em atividade regulamentada", "level": "Alto", "response": "Triagem jurídica." },
+          { "risk": "Vantagem indevida em relações institucionais", "level": "Alto", "response": "Código, diligência de parceiros e canal de denúncias." },
+          { "risk": "Conflito entre sócios", "level": "Médio", "response": "Acordo de Sócios, mediação e buy or sell." },
+          { "risk": "Inadimplência e concentração de clientes", "level": "Médio", "response": "Contratos com garantias e reserva de R$ 600 mil." },
+          { "risk": "Dependência de pessoas-chave", "level": "Médio", "response": "Processos documentados e substitutos definidos." }
+        ] },
+        { "type": "legal", "title": "Ver base legal", "items": [
+          "**Programa de integridade** nos parâmetros do Decreto 11.129/2022 [[Decreto 11.129/2022, arts. 56 e 57]].",
+          "**Encarregado de dados** na Diretoria de Governança e Compliance [[LGPD, art. 41]]."
+        ] }
+      ]
+    },
+    {
+      "id": "esg", "num": "10", "nav": "ESG e sustentabilidade",
+      "title": "Sustentabilidade com metas, prazos e responsáveis.",
+      "summary": "Reduzir o impacto ambiental, promover um ambiente justo e diverso e manter governança íntegra, medindo e divulgando resultados.",
+      "highlight": { "value": "7", "label": "indicadores com status" },
+      "owners": ["iso"],
+      "blocks": [
+        { "type": "text", "text": "Referência: [[ABNT PR 2030:2022]]." },
+        { "type": "pillars", "items": [
+          { "icon": "Leaf", "title": "Ambiental", "items": ["Escritório digital", "Descarte de eletrônicos por logística reversa [[Lei 12.305/2010, art. 33]]", "Equipamentos eficientes", "Reuniões on-line"] },
+          { "icon": "Users", "title": "Social", "items": ["Igualdade salarial [[Lei 14.611/2023]]", "Prevenção ao assédio", "Capacitação", "Educação patrimonial gratuita na comunidade"] },
+          { "icon": "ShieldCheck", "title": "Governança", "items": ["Integridade", "LGPD", "Decisões em ata"] }
+        ] },
+        { "type": "heading", "text": "Indicadores" },
+        { "type": "indicators", "items": [
+          { "name": "Documentos em formato digital", "goal": "≥ 90%", "status": "Adotado" },
+          { "name": "Eletrônicos com descarte certificado", "goal": "100%", "status": "Adotado" },
+          { "name": "Equipe treinada em compliance e LGPD", "goal": "100% ao ano", "status": "Adotado" },
+          { "name": "Horas de capacitação por pessoa", "goal": "20 h/ano", "status": "1º ano" },
+          { "name": "Ações de educação patrimonial", "goal": "4 por ano", "status": "1º ano" },
+          { "name": "Incidentes de dados com impacto a clientes", "goal": "zero", "status": "Monitorado" },
+          { "name": "Relatório ESG anual publicado", "goal": "1 por ano", "status": "2º ano" }
+        ], "legend": "Adotado: em vigor desde a constituição · 1º/2º ano: prazo de implantação · Monitorado: acompanhado mensalmente." },
+        { "type": "heading", "text": "ODS da ONU" },
+        { "type": "ods", "items": [
+          { "n": "4", "name": "Educação de qualidade" },
+          { "n": "5", "name": "Igualdade de gênero" },
+          { "n": "8", "name": "Trabalho decente e crescimento econômico" },
+          { "n": "12", "name": "Consumo e produção responsáveis" },
+          { "n": "16", "name": "Paz, justiça e instituições eficazes" }
+        ] },
+        { "type": "callout", "icon": "Compass", "title": "Serviços ESG aos clientes", "text": "Como consultoria de gestão, dentro do objeto social: diagnóstico ESG e de governança, organização de indicadores e apoio documental a relatórios." }
+      ]
+    },
+    {
+      "id": "financas", "num": "11", "nav": "Finanças",
+      "title": "De onde vem e para onde vai o capital.",
+      "summary": "No cenário acadêmico, 28 clientes geram R$ 54 mil por mês. Pagas as despesas, sobram R$ 16 mil mensais antes dos tributos — meta de cenário, não lucro garantido.",
+      "highlight": { "value": "R$ 16 mil", "label": "por mês antes de tributos, no cenário" },
+      "owners": ["ns"],
+      "blocks": [
+        { "type": "heading", "text": "Capital · R$ 900.000" },
+        { "type": "stackbar", "parts": [
+          { "label": "Implantação", "value": 300000, "display": "R$ 300 mil" },
+          { "label": "Reserva", "value": 600000, "display": "R$ 600 mil" }
+        ], "note": "A reserva **não é lucro nem despesa** e só ganha destino com aprovação dos sócios." },
+        { "type": "heading", "text": "Destinação dos R$ 300 mil" },
+        { "type": "bars", "total": 300000, "items": [
+          { "label": "Capital de giro", "value": 160000 },
+          { "label": "Equipamentos de informática", "value": 45000 },
+          { "label": "Mobiliário e estrutura", "value": 35000 },
+          { "label": "Adequação e instalação", "value": 20000 },
+          { "label": "Sistemas e softwares", "value": 15000 },
+          { "label": "Marketing e identidade visual", "value": 15000 },
+          { "label": "Constituição", "value": 10000 }
+        ] },
+        { "type": "heading", "text": "Despesas mensais" },
+        { "type": "table", "head": ["Item", "Valor"], "rows": [
+          ["Remuneração e encargos", "R$ 22.000"],
+          ["Aluguel", "R$ 4.500"],
+          ["Contabilidade", "R$ 2.500"],
+          ["Softwares", "R$ 2.000"],
+          ["Marketing", "R$ 2.000"],
+          ["Internet, energia e telefone", "R$ 1.500"],
+          ["Transporte", "R$ 1.500"],
+          ["Seguros e diversas", "R$ 1.200"],
+          ["Material", "R$ 800"]
+        ], "foot": ["Total", "R$ 38.000/mês"], "footSub": "R$ 456.000/ano" },
+        { "type": "heading", "text": "Receita e resultado (cenário)" },
+        { "type": "kpis", "items": [
+          { "countTo": 54, "prefix": "R$ ", "suffix": " mil", "label": "Receita por mês · 28 clientes × R$ 1.928,57 (R$ 648.000/ano)" },
+          { "countTo": 16, "prefix": "R$ ", "suffix": " mil", "label": "Resultado antes de tributos por mês (R$ 192.000/ano)" },
+          { "countTo": 29.6, "decimals": 1, "suffix": "%", "label": "Margem antes de tributos" },
+          { "value": "R$ 1.357,14", "label": "Custo da estrutura por cliente/mês" }
+        ] },
+        { "type": "heading", "text": "Fôlego" },
+        { "type": "kpis", "items": [
+          { "countTo": 4.2, "decimals": 1, "suffix": " meses", "label": "de despesas cobertos pelo capital de giro" },
+          { "countTo": 20, "suffix": " meses", "label": "somando a reserva, se os sócios aprovarem o uso" }
+        ] },
+        { "type": "simulator" },
+        { "type": "heading", "text": "Distribuição de lucros" },
+        { "type": "steps", "items": [
+          { "title": "Apuração", "text": "No balanço do exercício (ano civil)." },
+          { "title": "Aprovação", "text": "Na reunião anual [[art. 1.078]]." },
+          { "title": "Reservas", "text": "Os sócios deliberam o que fica retido." },
+          { "title": "Distribuição", "text": "**11,11% por sócio**, proporcional às quotas [[Cl. 9ª]] [[CC, art. 1.007]], salvo deliberação de reinvestimento." }
+        ] },
+        { "type": "legal", "title": "Ver base legal", "items": [
+          "Nenhum sócio é excluído dos lucros [[art. 1.008]].",
+          "Lucros fictícios geram responsabilidade [[art. 1.009]].",
+          "Retirar valores contra a deliberação dos sócios é falta grave [[STJ, REsp 2.142.834/SP]].",
+          "**Tributação:** regime a definir. O Simples Nacional [[LC 123/2006]] só se aplica se a sociedade e as atividades forem admitidas. O ponto de equilíbrio será calculado pela margem de contribuição depois do enquadramento."
+        ] }
+      ]
+    },
+    {
+      "id": "marca", "num": "12", "nav": "Marca e relações institucionais",
+      "title": "Uma marca discreta e uma rede de confiança.",
+      "summary": "A identidade visual traduz solidez e sigilo. A rede de parceiros garante que cada necessidade do cliente chegue ao profissional certo.",
+      "highlight": { "value": "6", "label": "frentes de relacionamento" },
+      "owners": ["jis", "ea"],
+      "blocks": [
+        { "type": "brand", "slogan": "Estratégia • Gestão • Valor", "text": "O monograma em V, de dois traços que se encontram num vértice, representa o encontro entre estratégia e gestão e o valor que nasce dele." },
+        { "type": "heading", "text": "Paleta · toque para copiar" },
+        { "type": "palette", "items": [
+          { "name": "Azul Vértora", "hex": "#0B1B3C" },
+          { "name": "Dourado", "hex": "#C79E58" },
+          { "name": "Dourado claro", "hex": "#EAC57E" },
+          { "name": "Dourado profundo", "hex": "#A37733" },
+          { "name": "Marfim", "hex": "#F7F3EA" },
+          { "name": "Marfim escuro", "hex": "#EEE7D8" }
+        ] },
+        { "type": "facts", "items": [
+          { "label": "Tipografia", "text": "Cormorant Garamond nos títulos · Montserrat nos textos e na assinatura em caixa-alta espaçada." },
+          { "label": "Tom de voz", "text": "Sóbrio · Claro · Confiável · Próximo." },
+          { "label": "Publicidade", "text": "R$ 15 mil na implantação e R$ 2 mil por mês. Sem promessa de resultado e sem expor casos de clientes sem autorização." }
+        ] },
+        { "type": "heading", "text": "Canais" },
+        { "type": "cards", "style": "icon", "compact": true, "items": [
+          { "icon": "Instagram", "title": "Instagram", "text": "Conteúdo educativo." },
+          { "icon": "Linkedin", "title": "LinkedIn", "text": "Presença institucional." },
+          { "icon": "QrCode", "title": "Site e portfólio", "text": "Pelo QR Code." },
+          { "icon": "MessageCircle", "title": "WhatsApp Business", "text": "Atendimento." }
+        ] },
+        { "type": "heading", "text": "Rede de parceiros" },
+        { "type": "network", "hint": "Toque em cada parceiro", "items": [
+          { "icon": "Scale", "title": "Escritórios de advocacia", "text": "Executam os atos privativos (tributário, sucessório, empresarial)." },
+          { "icon": "Calculator", "title": "Escritórios de contabilidade", "text": "Escrituração e obrigações fiscais." },
+          { "icon": "Landmark", "title": "Instituições financeiras", "text": "A Vértora organiza as informações, sem recomendar, intermediar ou custodiar." },
+          { "icon": "Building2", "title": "Clientes empresariais", "text": "Relacionamento contínuo." },
+          { "icon": "Globe", "title": "Entidades e eventos", "text": "Fóruns de governança familiar e congressos de Direito Empresarial." },
+          { "icon": "Handshake", "title": "Representação institucional", "text": "Feita pela Diretoria de Relações Institucionais com o Sócio-Administrador." }
+        ] },
+        { "type": "callout", "icon": "FileSignature", "text": "Parcerias formalizadas em termo, com sigilo, LGPD e independência técnica, **sem repasse de honorários nem captação de causas** [[Lei 8.906/1994, art. 34, III e IV]]." }
+      ]
+    },
+    {
+      "id": "por-que-investir", "num": "13", "nav": "Por que investir",
+      "title": "Por que investir na Vértora.",
+      "summary": "Um negócio com limites legais claros, governança desde o primeiro dia e números que fecham.",
+      "highlight": { "value": "4", "label": "motivos" },
+      "owners": ["pp"],
+      "blocks": [
+        { "type": "reasons", "items": [
+          { "title": "Um só ponto de contato", "text": "Patrimônio, documentos e prazos com um único parceiro." },
+          { "title": "Segurança jurídica", "text": "Atuação dentro do objeto social, com profissionais habilitados no que a lei reserva." },
+          { "title": "Governança desde o início", "text": "9 sócios, quóruns qualificados e compliance estruturado." },
+          { "title": "Números sustentáveis", "text": "Margem de 29,6% antes de tributos no cenário e R$ 600 mil de reserva." }
+        ] },
+        { "type": "actions" },
+        { "type": "heading", "text": "Referências" },
+        { "type": "references", "groups": [
+          { "title": "Legislação", "items": [
+            "BRASIL. Constituição Federal de 1988, art. 170.",
+            "BRASIL. Lei nº 10.406/2002 — Código Civil.",
+            "BRASIL. Lei nº 6.404/1976 — Lei das Sociedades por Ações, art. 118.",
+            "BRASIL. Lei Complementar nº 123/2006 — Estatuto da ME e EPP.",
+            "BRASIL. Lei nº 8.906/1994 — Estatuto da Advocacia e da OAB.",
+            "BRASIL. Lei nº 6.385/1976 — Mercado de valores mobiliários.",
+            "BRASIL. Lei nº 13.709/2018 — LGPD.",
+            "BRASIL. Lei nº 12.846/2013 e Decreto nº 11.129/2022 — Anticorrupção.",
+            "BRASIL. Lei nº 8.934/1994 — Registro Público de Empresas.",
+            "BRASIL. Lei nº 13.140/2015 — Mediação.",
+            "BRASIL. Leis nº 6.938/1981, 12.305/2010, 14.451/2022, 14.478/2022 e 14.611/2023.",
+            "BRASIL. Decreto-Lei nº 9.295/1946 · CVM, Resolução nº 19/2021."
+          ] },
+          { "title": "Doutrina", "items": [
+            "COELHO, Fábio Ulhoa. Curso de direito comercial: direito de empresa — sociedades. v. 2. 5. ed. São Paulo: Thomson Reuters Brasil, 2024.",
+            "MAMEDE, Gladston. Direito empresarial brasileiro: direito societário. 14. ed. Barueri: Atlas, 2022.",
+            "TOMAZETTE, Marlon. Curso de direito empresarial: teoria geral e direito societário. v. 1. 14. ed. São Paulo: Saraiva Jur, 2023."
+          ] },
+          { "title": "Jurisprudência", "items": [
+            "STJ. REsp 2.142.834/SP. 3ª Turma. Rel. Min. Ricardo Villas Bôas Cueva. Julg. 11 jun. 2024. Informativo nº 816.",
+            "STJ. REsp 2.053.655/SP. 4ª Turma. Rel. Min. Raul Araújo. Julg. 11 fev. 2025. DJe 5 mar. 2025."
+          ] },
+          { "title": "Mercado", "items": [
+            "IBGC. Código das melhores práticas de governança corporativa. 6. ed. São Paulo: IBGC, 2023.",
+            "ABNT. PR 2030:2022 — Ambiental, social e governança (ESG). Rio de Janeiro: ABNT, 2022."
+          ] }
+        ] }
+      ]
+    }
+  ],
+
+  "quorum": {
+    "levels": [
+      { "id": "maioria", "name": "Maioria simples", "pct": "mais de 50%", "matters": "Contas da administração, relatórios anuais, deliberações ordinárias", "needed": 5 },
+      { "id": "dois-tercos", "name": "Dois terços", "pct": "2/3", "matters": "Designar ou destituir administradores, contratar empréstimos, investir fora do orçamento", "needed": 6 },
+      { "id": "tres-quartos", "name": "Três quartos", "pct": "75%", "matters": "Alterar o Contrato Social, mudar o objeto social, admitir sócios, fusão, incorporação, cisão ou transformação", "needed": 7 },
+      { "id": "unanimidade", "name": "Unanimidade", "pct": "100%", "matters": "Dissolução voluntária, mudança da nacionalidade", "needed": 9 }
+    ],
+    "matters": [
+      { "label": "Aprovar as contas da administração", "level": "maioria", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Aprovar os relatórios anuais", "level": "maioria", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Deliberação ordinária", "level": "maioria", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Designar ou destituir administrador", "level": "dois-tercos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Contratar empréstimo", "level": "dois-tercos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Investir fora do orçamento", "level": "dois-tercos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Alterar o Contrato Social", "level": "tres-quartos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Mudar o objeto social", "level": "tres-quartos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Admitir novo sócio", "level": "tres-quartos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Fusão, incorporação, cisão ou transformação", "level": "tres-quartos", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Exceção ao lock-up de 24 meses", "level": "tres-quartos", "source": "Acordo de Sócios, Cl. 3ª" },
+      { "label": "Drag along (venda de 100% da empresa)", "level": "tres-quartos", "source": "Acordo de Sócios, Cl. 3ª" },
+      { "label": "Ingresso de herdeiros", "level": "tres-quartos", "source": "Acordo de Sócios, Cl. 4ª" },
+      { "label": "Alterar o Acordo de Sócios", "level": "tres-quartos", "source": "Acordo de Sócios, Cl. 9ª" },
+      { "label": "Dissolução voluntária", "level": "unanimidade", "source": "Contrato Social, Cl. 8ª" },
+      { "label": "Mudança da nacionalidade", "level": "unanimidade", "source": "Contrato Social, Cl. 8ª" }
+    ]
+  },
+
+  "simulator": {
+    "min": 10, "max": 60, "start": 28,
+    "ticket": 1928.57, "expenses": 38000,
+    "warning": "Cenário acadêmico simplificado: despesas tratadas como fixas, sem tributos; não é previsão nem ponto de equilíbrio oficial."
+  }
+}
